@@ -119,7 +119,7 @@ Place the downloaded dataset folder at the root of the project as `dataset_sign_
 ### Step 1 — Collect Data (optional, dataset already provided)
 
 ```bash
-python codes/data_collection.py
+python codes/data_collection.ipynb
 ```
 
 - Press `S` to start/stop capturing images
@@ -129,7 +129,7 @@ python codes/data_collection.py
 ### Step 2 — Train the Model (optional, model already provided)
 
 ```bash
-python codes/train.py
+python codes/model_creation.ipynb
 ```
 
 Training runs for 20 epochs with the following augmentation:
@@ -141,7 +141,7 @@ Training runs for 20 epochs with the following augmentation:
 ### Step 3 — Run Inference
 
 ```bash
-python codes/inference.py
+python codes/prediction.ipynb
 ```
 
 - Place your hand inside the **green ROI box** in the top-right corner
